@@ -1,0 +1,13 @@
+server:
+  port: 9081 
+  
+spring:
+  application:
+    name: eurekaclient1     
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9080/eureka/     
+    
+      
